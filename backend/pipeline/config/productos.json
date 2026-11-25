@@ -1,0 +1,9 @@
+{
+  "_comentario": "Mapa zone_id -> SKU. Los SKU deben cumplir el patron ^SKU_[A-Za-z0-9_]+$ que exige el validador del modulo 8 (validador_recomendador_v3.py). Un guion normal (SKU-001) NO pasa la validacion. Las zonas de transito, como pasillo_central, simplemente se omiten: no llevan producto asociado.",
+  "productos": {
+    "gondola_A1": "SKU_1001_snacks",
+    "gondola_A2": "SKU_1002_bebidas",
+    "gondola_A3": "SKU_1003_lacteos",
+    "gondola_B1": "SKU_1004_aseo"
+  }
+}

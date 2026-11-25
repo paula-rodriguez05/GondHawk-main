@@ -1,0 +1,56 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Dependencias y compilaciones frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/public/data/*.json
+frontend/public/data/*.png
+*.local
+
+# Cachés y archivos temporales Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Modelos descargados
+*.pt
+
+# Videos y material pesado
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+backend/pipeline/uploads/
+
+# Dataset local de entrenamiento y corridas de YOLO (pesan cientos de MB,
+# no forman parte del historial del repo)
+backend/dataset_sintetico/
+runs/
+
+# Salidas generadas por el pipeline
+backend/pipeline/output/
+backend/pipeline/output_3d*/
+backend/pipeline/output_ideal/
+backend/deteccion_personas/output/
+backend/tracking/output/
+backend/mapas_de_calor/output/
+backend/tiempo_permanencia/output/
+backend/deteccion_eventos/output/
+frontend/public/data/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Configuración local y sistema
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

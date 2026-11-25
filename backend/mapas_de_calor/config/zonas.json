@@ -1,0 +1,12 @@
+{
+  "video_ref": "vtest.avi",
+  "frame_width": 768,
+  "frame_height": 576,
+  "zonas": [
+    {"zone_id": "gondola_A1", "poligono": [[10, 50], [150, 50], [150, 300], [10, 300]]},
+    {"zone_id": "gondola_A2", "poligono": [[160, 50], [300, 50], [300, 300], [160, 300]]},
+    {"zone_id": "gondola_A3", "poligono": [[310, 50], [450, 50], [450, 300], [310, 300]]},
+    {"zone_id": "pasillo_central", "poligono": [[10, 310], [600, 310], [600, 400], [10, 400]]},
+    {"zone_id": "gondola_B1", "poligono": [[460, 50], [600, 50], [600, 300], [460, 300]]}
+  ]
+}

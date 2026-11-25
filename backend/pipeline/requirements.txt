@@ -1,0 +1,26 @@
+# Pipeline — Módulo 6 (Laura)
+# Estas dependencias son la unión de todos los módulos que integra el pipeline.
+# Se instalan una sola vez y cubren todo el proyecto.
+
+# Detección de personas + Tracking (Módulos 2 y 3 — Samuel y Juan)
+ultralytics>=8.4.0
+
+# Procesamiento de imagen y video
+opencv-python>=4.8.0
+
+# Remux del video anotado a H.264 (sin esto, el mp4 que escribe OpenCV
+# no trae metadata de duracion y no reproduce en el navegador).
+imageio-ffmpeg>=0.5.0
+
+# Heatmap (Módulo 4 — Arturo)
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Tiempo de permanencia (Módulo 5 — Diego)
+# (usa opencv y numpy, ya listados)
+
+# Detección de eventos (Módulo 1 — Nicol)
+# (usa solo stdlib + los paquetes ya listados)
+
+# Agregación histórica con Apache Spark (requiere Java 17 o superior en runtime).
+pyspark>=3.5,<4.0

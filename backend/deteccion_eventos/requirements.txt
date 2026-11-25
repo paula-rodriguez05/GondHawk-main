@@ -1,0 +1,11 @@
+# El modulo 1 corre solo con la biblioteca estandar de Python 3.10+.
+#
+# Es una decision de diseno, no un descuido: el point-in-polygon esta
+# implementado con ray casting en Python puro en src/zonas.py, asi que esta
+# capa del pipeline no arrastra NumPy, OpenCV ni Ultralytics. Eso apoya el
+# criterio de "viabilidad edge" del reto (correr local, en cualquier
+# dispositivo con Python).
+#
+# Si en el futuro se agrega el detector de alcance por pose alimentado
+# directamente desde un modelo (en vez de leer keypoints ya calculados del
+# modulo 3), ahi si haria falta agregar dependencias aqui.

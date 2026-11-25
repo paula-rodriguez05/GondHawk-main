@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+*.pt
+data/*.avi
+data/*.mp4
+output/*.jsonl
+output/*.json
+output/*.mp4
+!output/.gitkeep

@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/*.avi
+data/*.mp4
+data/*.jsonl
+output/*.npy
+output/*.json
+!output/.gitkeep

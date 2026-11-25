@@ -1,0 +1,17 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# Generación de reportes descargables (/api/analisis/{id}/reporte/{formato}).
+# Sin estas, el endpoint responde 501 y los botones de descarga fallan.
+reportlab>=4.0.0
+openpyxl>=3.1.0
+python-docx>=1.1.0
+pillow>=10.0.0
+
+# Persistencia en Supabase (opcional: sin credenciales el sistema usa disco).
+supabase>=2.15.0
+python-dotenv>=1.0.0
+
+# Dependencies used by the integrated analysis pipeline.
+-r pipeline/requirements.txt

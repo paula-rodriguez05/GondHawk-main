@@ -1,0 +1,23 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Pesos de modelos: se descargan, no se versionan
+*.pt
+
+# Videos de prueba: usar deteccion_personas/data/descargar_video_prueba.py
+data/*.avi
+data/*.mp4
+
+# Salidas generadas por los modulos
+deteccion_personas/output/
+tracking/output/
+mapas_de_calor/output/
+tiempo_permanencia/output/
+deteccion_eventos/output/
+pipeline/output/
+!**/output/.gitkeep
+
+# Credenciales de Supabase: nunca se versionan.
+.env
